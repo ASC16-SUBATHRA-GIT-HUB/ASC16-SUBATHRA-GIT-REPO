@@ -5,7 +5,7 @@ public class Main {
         Movie m1 = new Movie("Inception", "subathra");
         Movie m2 = new Movie("The Matrix", "John", "Amaran", 136, 1999, "Action");
 
-        m1.acceptInfo("Christ", 148, 2010, "Sci-Fi");
+        m1.acceptInfo("vig", 148, 2010, "Sci-Fi");
 
         m1.displayInfo();
         m2.displayInfo();

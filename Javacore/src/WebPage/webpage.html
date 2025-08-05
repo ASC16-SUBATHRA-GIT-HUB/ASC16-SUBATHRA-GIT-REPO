@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Click Tracker</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        status { font-weight: bold; color: #2a2a2a; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<button onclick="handleClick()">Click Me</button>
+<br><br>
+<label for="statusBox">Status:</label>
+<input type="text" id="statusBox" value="Not Clicked" readonly>
+<p id="status">Not Clicked</p>
+
+<script>
+    function handleClick() {
+        document.getElementById('status').innerText = "Clicked";
+        document.getElementById('statusBox').value = "Clicked";
+        document.getElementById('status').innerText = "Not Clicked";
+        document.getElementById('pop up').value="Not Clicked";
+    }
+</script>
+</body>
+</html>

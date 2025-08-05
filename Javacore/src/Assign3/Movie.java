@@ -30,9 +30,7 @@ public class Movie {
 
     // Method to display info
     public void displayInfo() {
-        System.out.println("Movie: " + movieName + "\nProduced By: " + producedBy +
-                "\nDirected By: " + directedBy + "\nDuration: " + duration +
-                "\nYear: " + year + "\nCategory: " + category);
+        System.out.println("Movie: " + movieName + "\nProduced By: " + producedBy + "\nDirected By: " + directedBy + "\nDuration: " + duration + "\nYear: " + year + "\nCategory: " + category);
     }
 
     // Static method to get movies count

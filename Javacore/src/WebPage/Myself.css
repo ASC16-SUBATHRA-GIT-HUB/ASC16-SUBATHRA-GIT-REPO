@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  background-color: lightblue;
+}
+  p {
+          color: red;
+        }
+
+.image-container img {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+#imageInfo {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}

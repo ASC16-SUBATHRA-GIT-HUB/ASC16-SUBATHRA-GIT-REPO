@@ -2,7 +2,9 @@ package Assignment;
 
 public class TableGenerator {
     static void tableFor(int n){
-        for(int i=1;i<=10; System.out.println(n+"x"+i+"="+(n*i++)));
+
+        for(int i=1;i<=10;)
+            System.out.println(n+"x"+i+"="+(n*i++));
     }
     static void tableWhile(int n){
         int i=1;
