@@ -10,7 +10,8 @@ public class Array {
             System.out.println(a[i] + " ");
         System.out.println("\nWhile:");
         int i = 0;
-        while (i < a.length) System.out.println(a[i++] + " ");
+        while (i < a.length)
+            System.out.println(a[i++] + " ");
         System.out.println();
     }
     void sortArray(){
