@@ -29,6 +29,11 @@ public class  BookingUI {
     public void bookTicket(String userId) {
         System.out.println("\n=== Book Ticket ===");
 
+        System.out.println("===All Buses ===");
+
+        List<Bus> allBuses = busService.getAllBuses();
+        displayBusList(allBuses);
+
         System.out.print("Enter source city: ");
         String source = scanner.nextLine().trim();
 
